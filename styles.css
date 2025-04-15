@@ -1,11 +1,13 @@
 h1 {
-    color: #930de1;
+    color: #000;
     text-align: center;
+    font-weight: bold;
+    font-family: "Open Sans", Arial;
 }
 
 p {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    color: blue;
+    color: #000;
     font-size: medium;
 }
