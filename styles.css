@@ -1,13 +1,16 @@
-h1 {
-    color: #000;
-    text-align: center;
-    font-weight: bold;
-    font-family: "Open Sans", Arial;
+/** Backgrounds from: https://hekate2.github.io/website-tools/index.html?q= */
+
+:root {
+    --gray: #a4b7b5;
+    --black: #000000;
+    --red: #ff0000;
+    --blue: #0000ff;
 }
 
-p {
-    text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: #000;
-    font-size: medium;
+* {
+    outline: white 1px solid; /*! remove later; only for setup */
+}
+
+body {
+    background: url(/images/backgrounds/metal004_light.jpg);
 }
