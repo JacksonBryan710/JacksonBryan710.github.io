@@ -19,16 +19,9 @@ body {
     background-attachment: fixed;
 }
 
-#bomb-casing {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;;
+h1{
+    color: white
 }
-
-#bomb {
-    width: auto;
-    height: auto;
-    max-width: 50%;
-    max-height: 90%;
+#recipes ul, a {
+    color: white;
 }
