@@ -7,10 +7,26 @@
     --blue: #0000ff;
 }
 
+/* outline for setup
 * {
-    outline: white 1px solid; /*! remove later; only for setup */
+    outline: white 1px solid;
 }
+TODO remove this
+*/
 
 body {
-    background: url(/images/backgrounds/metal004_light.jpg);
+    background-image: url(/images/backgrounds/metal004_light.jpg);
+    background-attachment: fixed;
+}
+
+#bomb-casing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;;
+}
+
+#bomb {
+    width: 50%;
+    height: auto;
 }
