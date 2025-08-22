@@ -15,7 +15,7 @@ TODO remove this
 */
 
 body {
-    background-image: url(/images/backgrounds/metal004_light.jpg);
+    background-image: url(../images/backgrounds/metal004_light.jpg);
     background-attachment: fixed;
 }
 
