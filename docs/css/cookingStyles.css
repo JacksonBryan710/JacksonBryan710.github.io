@@ -14,14 +14,17 @@
 TODO remove this
 */
 
-body {
-    background-image: url(../images/backgrounds/metal004_light.jpg);
-    background-attachment: fixed;
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid var(--gray);
 }
 
-h1{
-    color: white
-}
-#recipes ul, a {
+th {
+    background-color: black;
     color: white;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: var(--gray);
 }
